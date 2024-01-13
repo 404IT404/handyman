@@ -1,0 +1,31 @@
+{
+    "users": [
+      {
+        "admin": [],
+        "handyman": [
+          {
+            "username": "jums",
+            "password": "123",
+            "skills": [
+              {
+                "plumbing": ""
+              }
+            ],
+            "id": 1
+          }
+        ],
+        "client": [
+          {
+            "username": "kevin",
+            "password": "123",
+            "id": 1
+          },
+          {
+            "username": "dan",
+            "password": "123",
+            "id": 1
+          }
+        ]
+      }
+    ]
+}
