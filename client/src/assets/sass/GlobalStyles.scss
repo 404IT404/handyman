@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+button, li, a {
+    cursor: pointer;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.input-1 {
+    border: none;
+    outline: none;
+    padding: 12px;
+    border-bottom: 1px solid #3330FF;
+}
+
+.button-1 {
+    color: #FFFFFF;
+    padding: 12px;
+    border: none;
+    outline: none;
+    margin-top: 12px;
+    font-weight: 500;
+    background-color: #3330FF;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.Link {
+    color: #3330FF;
+    font-weight: 600;
+}
+
+.error-1 {
+    color: #fe2c55;
+    font-weight: 700;
+    font-size: 12px;
+    text-align: center;
+}   

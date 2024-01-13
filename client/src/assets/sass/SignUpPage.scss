@@ -1,0 +1,55 @@
+.sign-up-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.sign-up-left-container {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #3330FF;
+
+    h1 {
+        color: #FFFFFF;
+        font-weight: 700;
+        margin-bottom: 0;
+    }
+
+    p {
+        margin: 0;
+        color: #FFFFFF;
+        font-size: 10px;
+        margin-right: -155px;
+    }
+}
+
+.sign-up-right-container {
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+
+    h1 {
+        margin: 0;
+    }
+
+    p {
+        margin-top: 0;
+    }
+
+    form {
+        width: 100%;
+    }
+}
+
+.password-wrapper {
+    margin-top: 12px;
+}
+
+.register-link-text {
+    margin-top: 12px;
+}
