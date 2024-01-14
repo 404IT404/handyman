@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
 
-import "../../assets/sass/GlobalStyles.scss"
-import "../../assets/sass/SignInPage.scss"
+import "../../assets/sass/GlobalStyles.scss";
+import "../../assets/sass/SignInPage.scss";
 
-import Login_Img_1 from "../../assets/images/Login_Img_1.png"
-import Login_Img_2 from "../../assets/images/Login_Img_2.png"
+import Login_Img_1 from "../../assets/images/Login_Img_1.png";
+import Login_Img_2 from "../../assets/images/Login_Img_2.png";
 
 const BASE_API_URL = import.meta.env.VITE_BASE_API_URL;
 
@@ -19,7 +19,7 @@ export const SignInPage = () => {
 
     const fetchUsers = async () => {
         try {
-            const response = await fetch(`${BASE_API_URL}/users`, {
+            const response = await fetch(`${BASE_API_URL}`, {
                 method: 'GET',
                 headers: {
                     "Content-Type": "application/json"
@@ -103,13 +103,13 @@ export const SignInPage = () => {
                 </div>
                 <div className="register-link-text">
                     <p >Don&#39;t have an account yet?&nbsp;
-                        <Link className="Link" to="/">Sign up</Link>
+                        <Link className="Link" to="/">Register</Link>
                     </p>
                     {error ? <p className="error-1">
                         Username and Password is incorrect
                     </p> : ""}
                 </div>
-                <button className="button-1">Sign in</button>
+                <button className="button-1">Login</button>
             </form>
         </div>
     </div>
