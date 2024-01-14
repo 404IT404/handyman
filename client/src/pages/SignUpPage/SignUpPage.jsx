@@ -16,7 +16,7 @@ export const SignUpPage = () => {
     const onUserRegister = async () => {
 
         try {
-            const response = await fetch(`${BASE_API_URL}/handyman_server/controller/api/UserRegister.php`, {
+            const response = await fetch(`${BASE_API_URL}/handyman-server/controller/api/UserRegister.php`, {
                 method: 'POST',
                 headers: {
                     "Content-Type": "application/json"
@@ -26,7 +26,7 @@ export const SignUpPage = () => {
             if(!response.ok) {
                 throw new Error("Invalid Request");
             }
-            
+
             const result = await response.json();
             console.log(result)
         } catch(err) {
